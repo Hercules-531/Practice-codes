@@ -37,7 +37,7 @@ long long largest_prime_factor(long long n) {
 int main() {
     long long number;
     printf("enter a number: ");
-    scanf("%d",&number);
+    scanf("%lld",&number);
     printf("The largest prime factor is: %lld\n", largest_prime_factor(number));
     return 0;
 }
